@@ -22,9 +22,9 @@ void app_main(void)
     ESP_ERROR_CHECK( esp_wifi_set_mode(WIFI_MODE_STA) );
     wifi_config_t sta_config = {
         .sta = {
-            .ssid = "access_point_name",
-            .password = "password",
-            .bssid_set = false
+            .ssid = "myssid",
+            .password = "mypass",
+            .bssid_set = 0
         }
     };
     ESP_ERROR_CHECK( esp_wifi_set_config(WIFI_IF_STA, &sta_config) );
@@ -33,7 +33,7 @@ void app_main(void)
 
     gpio_set_direction(GPIO_NUM_4, GPIO_MODE_OUTPUT);
     int level = 0;
-    while (true) {
+    while (1) {
         gpio_set_level(GPIO_NUM_4, level);
         level = !level;
         vTaskDelay(300 / portTICK_PERIOD_MS);

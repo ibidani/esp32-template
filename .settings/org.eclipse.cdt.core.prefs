@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/0.858157356/IDF_PATH/delimiter=\:
+environment/project/0.858157356/IDF_PATH/operation=append
+environment/project/0.858157356/IDF_PATH/value=/home/idan/installations/esp-idf
+environment/project/0.858157356/PATH/delimiter=\:
+environment/project/0.858157356/PATH/operation=append
+environment/project/0.858157356/PATH/value=${PATH}\:/opt/rh/devtoolset-3/root/usr/bin\:/home/idan/anaconda2/bin\:/home/idan/dev/arduino-1.8.2\:/usr/lib64/qt-3.3/bin\:/usr/local/bin\:/usr/local/sbin\:/usr/bin\:/usr/sbin\:/opt/cuda/bin\:/home/idan/.local/bin\:/home/idan/bin\:/home/idan/dev/java/jdk1.8.0_91/bin\:/home/idan/dev/openshift\:/home/idan/esp/xtensa-esp32-elf/bin
+environment/project/0.858157356/append=true
+environment/project/0.858157356/appendContributed=true
